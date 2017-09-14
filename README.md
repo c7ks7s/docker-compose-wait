@@ -40,7 +40,7 @@ ADD run.sh /run.sh
 RUN chmod +x /run.sh
 
 ## Add the entrypoint.sh script to the image
-ADD https://raw.githubusercontent.com/c7ks7s/docker-entrypoint/master/entrypoint.sh /entrypoint.sh
+ADD https://raw.githubusercontent.com/c7ks7s/docker-entrypoint/<Github-tag>/entrypoint.sh /entrypoint.sh
 RUN chmod +x /entrypoint.sh
 
 ## Install netcat - required for WAIT_HOSTS in entrypoint.sh
